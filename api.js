@@ -38,17 +38,3 @@ app.use("/api/v1/booking", bookingRouter)
 app.listen(process.env.PORT || 3000, function () {
     console.log("server started at port 3000");
 })
-
-// create -> deleteUser, updateUser
-// {
-//     name: 'Jasbir',
-//     password: 'abcd',
-//     confirmPassword: 'abcd',
-//     email: 'abc@gmail.com',
-//     phonenumber: '8800953687',
-//     pic: 'dp.png',
-// -> unnique id
-//     _id: new ObjectId("62d2f2c0aaa6d2fe55d1e68c"),
-// mongoose
-//     __v: 0
-//   }
